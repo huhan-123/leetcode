@@ -9,6 +9,10 @@ import java.util.List;
  * @Description 找到字符串中所有字母异位词
  * @Verion 1.0
  */
+
+/**
+ * 思路：维持一个固定长度的窗口，若窗口中的元素全部在所给字符串中，则返回该窗口索引，窗口向前滑动
+ */
 public class FindAnagrams {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
