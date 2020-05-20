@@ -6,5 +6,12 @@ package two_points.fast_slow_pointer;
  * @Description
  * @Verion 1.0
  */
-public class ListNode {
+class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode(int x) {
+        val = x;
+        next = null;
+    }
 }
