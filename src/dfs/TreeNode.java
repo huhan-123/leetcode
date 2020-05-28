@@ -1,17 +1,17 @@
-package bfs;
+package dfs;
 
 /**
  * @Author: huhan
- * @Date 2020/5/24 9:17 下午
+ * @Date 2020/5/25 11:08 上午
  * @Description
  * @Verion 1.0
  */
 public class TreeNode {
-    int value;
+    int val;
     TreeNode left;
     TreeNode right;
 
-    public TreeNode(int value) {
-        this.value = value;
+    TreeNode(int x) {
+        val = x;
     }
 }
