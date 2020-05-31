@@ -1,0 +1,4 @@
+排列、组合、子集的问题用回溯法解决
+https://labuladong.gitbook.io/algo/suan-fa-si-wei-xi-lie/zi-ji-pai-lie-zu-he
+leetcode有三种解法（递归、回溯、字典排序（二进制排序）子集）
+https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode/
