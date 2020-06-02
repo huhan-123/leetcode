@@ -1,7 +1,5 @@
 package modified_binary_search;
 
-import slide_window.MinWindow;
-
 /**
  * @Author: huhan
  * @Date 2020/6/2 7:47 上午
