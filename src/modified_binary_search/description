@@ -1,0 +1,13 @@
+二分搜索模版：
+int start = 0, end = nums.length - 1;
+while (start + 1 < end) {   //注意这里的循环条件（循环结束后start和end是相邻的两个索引）
+    int mid = start + (end - start) / 2;
+
+    if (...) {
+        start = mid;    //注意这里是直接赋值，不需要加1，下同
+    } else {
+        end = mid;
+    }
+}
+
+https://juejin.im/post/5d4dd1ddf265da03913503cd
