@@ -39,6 +39,5 @@ public class FrequencySort {
     public static void main(String[] args) {
         String tree = new FrequencySort().frequencySort("tree");
         System.out.println(tree);
-
     }
 }

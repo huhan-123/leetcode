@@ -19,7 +19,7 @@ public class FindKthNumber {
                 left = mid;
             }
         }
-        if (isGreaterThanEqualTo(m,n,k, left)){
+        if (isGreaterThanEqualTo(m, n, k, left)) {
             return left;
         }
         return right;
