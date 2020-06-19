@@ -6,12 +6,12 @@ import java.util.List;
 /**
  * @Author: huhan
  * @Date 2020/6/7 8:34 下午
- * @Description 分割回文串
+ * @Description 分割回文串1
  * 给定一个字符串 s，将 s 分割成一些子串，使每个子串都是回文串。
  * @Verion 1.0
  */
 //https://www.cxyxiaowu.com/6890.html
-public class Partition {
+public class Partition1 {
     //dp[i][j]表示s.substirng(i,j+1)是否为回文串
     boolean[][] dp;
 
@@ -56,7 +56,7 @@ public class Partition {
     }
 
     public static void main(String[] args) {
-        List<List<String>> aab = new Partition().partition("aab");
+        List<List<String>> aab = new Partition1().partition("ababababababababababababcbabababababababa");
         System.out.println();
     }
 }

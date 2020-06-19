@@ -1,4 +1,16 @@
 排列、组合、子集的问题用回溯法解决
 https://labuladong.gitbook.io/algo/suan-fa-si-wei-xi-lie/zi-ji-pai-lie-zu-he
-leetcode有三种解法（递归、回溯、字典排序（二进制排序）子集）
+回溯法模板：
+result = []
+def backtrack(路径, 选择列表):
+    if 满足结束条件:
+        result.add(路径)
+        return
+    for 选择 in 选择列表:
+        做选择
+        backtrack(路径, 选择列表)
+        撤销选择
+
+
+leetcode有三种解法（递归、回溯、 ）
 https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode/

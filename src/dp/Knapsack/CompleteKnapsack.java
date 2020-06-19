@@ -1,4 +1,4 @@
-package dp;
+package dp.Knapsack;
 
 /**
  * @Author: huhan
@@ -14,7 +14,7 @@ public class CompleteKnapsack {
         int[][] dp = new int[n][v + 1];
         for (int i = v; i >= 0; i--) {
             if (i >= c[0]) {
-                dp[0][i] = w[0];
+                dp[0][i] = w[0] * i / c[0];
             } else {
                 break;
             }

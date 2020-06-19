@@ -14,6 +14,7 @@ public class Permutations2 {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> result = new LinkedList<>();
         Map<Integer, Integer> map = new HashMap<>();
+        //这里的排序很关键
         Arrays.sort(nums);
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], map.getOrDefault(nums[i], 0)+1);

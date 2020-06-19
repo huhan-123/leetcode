@@ -1,4 +1,4 @@
-package dp;
+package dp.Knapsack;
 
 /**
  * @Author: huhan
@@ -24,12 +24,12 @@ public class TargetSumWays {
         dp[-nums[0] + sum] += 1;
 
         for (int i = 1; i < nums.length; i++) {
-            int[] next = new int[(sum<<1)+1];
+            int[] next = new int[(sum << 1) + 1];
             for (int j = -sum; j <= sum; j++) {
-                if (j - nums[i] + sum >= 0) {
+                if (j - nums[i] + sum >= 0) {//当前这个数为+
                     next[j + sum] += dp[j - nums[i] + sum];
                 }
-                if (j + nums[i] + sum <= 2 * sum) {
+                if (j + nums[i] + sum <= 2 * sum) {//当前这个数为-
                     next[j + sum] += dp[j + nums[i] + sum];
                 }
             }

@@ -33,6 +33,5 @@ public class FindMin {
             }
         }
         return Math.min(nums[left], nums[right]);
-
     }
 }

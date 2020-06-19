@@ -50,6 +50,7 @@ public class PathSum3 {
         return countPath(root, map, sum, 0);
     }
 
+    //这道题用到了一个概念，叫前缀和。就是到达当前元素的路径上，之前所有元素的和。
     //当前节点到根节点路径和为sum的路径个数+当前节点子树上所有节点到根节点路径和为sum的路径个数
     public int countPath(TreeNode node, Map<Integer, Integer> map, int target, int currentSum) {
         if (node == null) {

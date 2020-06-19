@@ -17,7 +17,7 @@ import java.util.Arrays;
  * 1.不偷窃第一个房子
  * 2.不偷窃第二个房子
  */
-public class HouseRobber {
+public class HouseRobber2 {
     public int houseRobber(int[] nums) {
         if (nums.length == 0) {
             return 0;
@@ -40,7 +40,7 @@ public class HouseRobber {
     }
 
     public static void main(String[] args) {
-        int i = new HouseRobber().houseRobber(new int[]{0});
+        int i = new HouseRobber2().houseRobber(new int[]{0});
         System.out.println();
     }
 }
